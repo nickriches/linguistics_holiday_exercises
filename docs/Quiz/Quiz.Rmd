@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Linguistics Holiday Exercises"
 output:
   html_document:
     css: webex.css
@@ -16,69 +16,288 @@ if (!requireNamespace("webex")) {
 }
 ```
 
+#Dependent clauses in songs
+
+##1. Son of a preacher man, Dusty Springfield (click [here](https://www.youtube.com/watch?v=DjydOI4MEIw) for YouTube video)
+
+_______________________________________________
+
+Listen to the song, and as you listen count the number of dependent clauses (NB these are tensed clauses with a subject + finite verb). If your answer is correct it will become blue. After you have finished, click 'SHOW ANSWERS' at the bottom, to see the solution.
+
+________________________________________________
+
+Billy Ray was a preacher's son, and when his daddy would visit he'd come along   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+When they gathered round and started talkin', that's when Billy would take me walkin'   = `r mcq(c("0", "1", answer = "2", "3", "4", "5"))` _dependent clause(s)_
+
+Out through the back yard we'd go walkin'   = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+Then he'd look into my eyes = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+Lord knows, to my surprise, the only one who could ever reach me was the son of a preacher man   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+The only boy who could ever teach me, was the son of a preacher man   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+Yes he was, he was, ooh, yes he was   = `r mcq(c(answer = "0","1","2", "3", "4", "5"))` _dependent clauses(s)_ 
+
+Bein' good isn't always easy, no matter how hard I try   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+When he started sweet-talkin' to me, he'd come'n tell me "Everything is all right"   = `r mcq(c("0","1", answer = "2", "3", "4", "5"))` _dependent clause(s)_
+
+He'd kiss and tell me "Everything is all right"   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+Can I get away again tonight?   = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+______________________________________________________
+
+CHORUS
+
+The only one who could ever reach me was the son of a preacher man   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clauses_
+
+The only boy who could ever teach me was the son of a preacher man   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clauses_
+
+Yes he was, he was, ooh, yes he was (yes he was)   = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clauses_ 
+
+______________________________________________________
+
+How well I remember the look that was in his eyes   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clauses_ 
+
+Stealin' kisses from me on the sly   = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clauses_
+
+Takin' time to make time   = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clauses_
+
+Tellin' me that he's all mine   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clauses_
 
 
-I fought the law and the law `r mcq(c("lost", answer = "won","went and bloody well triumphed"))` CLAUSE TYPES: `r mcq(c("single clause", answer = "conjoined clause", "embedded clause"))` Bloody fuck
+Learnin' from each other's knowin'   = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clauses_
+
+Lookin' to see how much we've grown  = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clauses_
+
+______________________________________________________
+CHORUS
+
+And the only one who could ever reach me was the son of a preacher man   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+The only boy who could ever teach me was the son of a preacher man   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+Yes he was, he was, oh yes he was   = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clauses_
+
+He was the sweet-talkin' son of a preacher man   = `r mcq(c(answer = "0","1","2", "3", "4", "5"))` _dependent clause(s)_
+
+The only boy who could ever teach me was the son of a preacher man   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clauses_
+
+The only one who could ever reach me was the sweet-talkin' son of a preacher man   = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clauses_
 
 
+`r hide("SHOW ANSWERS")`
 
-poopThis is a Web Exercise template created by the [psychology teaching team at the University of Glasgow](http://www.psy.gla.ac.ukUniversity of Glasgow), based on ideas by [Software Carpentry](https://software-carpentry.org/lessons/). This template enables instructors to easily create web documents that students can use in self-assessment.
+REL = relative clause, ADV = adverbial clause, COMP = complement clause ('complement' = post-verbal argument).
 
-The webex package provides a number of functions that you use in [inline R code](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) to create HTML widgets (text boxes, pull down menus, buttons that reveal hidden content). Examples are provided in this document. Knit this file to HTML to see how it works.
+____________________________________
 
-*NOTE: If the widgets don't work for you in the built-in RStudio browser, open the HTML file in a different browser.*
+Billy Ray was a preacher's son, and ^ADV^[when his daddy would visit] he'd come along __(There are two conjoined clauses, linked by 'and', and there is an Adverbial clause within the second of these two clauses)__
 
-## Fill-In-The-Blanks (`fitb()`)
+^ADV^[When they gathered around and started talkin'], that's ^ADV^[when Billy would take me walkin'] __(NB second clause is unusual as it is not omissible. However, it describes TIME which is a typical function of an adverbial clause)__
 
-Create fill-in-the-blank questions using `fitb()`, providing the answer as the first argument.
+Out through the back yard we'd go walkin'
 
-- 2 + 2 is `r fitb("4")`
+Then he'd look into my eyes
 
-You can also create these questions dynamically, using variables from your R session.
+Lord knows, to my surprise, the only one ^REL^[who could ever reach me] was the son of a preacher man __(This is a subject relative clause, as the modified noun, 'one', is the subject of verb 'reach')__
 
-```{r echo = FALSE}
-x <- sample(2:8, 1)
-```
+The only boy ^REL^[who could ever teach me] was the son of a preacher man
 
-- The square root of `r x^2` is: `r fitb(x)`
+Yes he was, he was, ooh, yes he was
 
-The blanks are case-sensitive; if you don't care about case, use the argument `ignore_case = TRUE`.
+Bein' good isn't always easy, ^ADV^[no matter how hard I try] __('no matter' is a conjunction. The entire phrase is omissible and movable)__
 
-- What is the letter after D? `r fitb("E", ignore_case = TRUE)`
+^ADV^[When he started sweet-talkin' to me] he'd come'n tell me ^COMP^["Everything is all right"] __(in Indirect Object position)__
 
-If you want to ignore differences in whitespace use, use the argument `ignore_ws = TRUE` and include spaces in your answer anywhere they could be acceptable..
+He'd kiss and tell me ^COMP^["Everything is all right"] __(in Indirect Object position)__
 
-- How do you load the tidyverse package? `r fitb("library( tidyverse )", ignore_case = TRUE, width = "20")`
+Can I get away again tonight?
 
-You can set more than one possible correct answer by setting the answers as a vector.
+The only one ^REL^[who could ever reach me] was the son of a preacher man __(Subject relative clause)__
 
-- Type a vowel: `r fitb(c("A", "E", "I", "O" , "U"), ignore_case = TRUE)`
+The only boy ^REL^[who could ever teach] me was the son of a preacher man
 
-## Multiple Choice (`mcq()`)
+Yes he was, he was, ooh, yes he was (yes he was)
 
-- "Never gonna give you up, never gonna: `r mcq(c("let you go", "turn you down", "run away", answer = "let you down"))`"
-- "I `r mcq(c(answer = "bless the rains", "guess it rains", "sense the rain"))` down in Africa" -Toto
+How well I remember the look ^REL^[that was in his eyes] __(Subject relative clause)__
 
-## True or False (`torf()`)
+Stealin' kisses from me on the sly
 
-- You can permute values in a vector using `sample()`. `r torf(TRUE)`
+Takin' time to make time 
 
-## Hidden solutions and hints (`hide()` and `unhide()`)
+Tellin' me ^COMP^[that he's all mine] __(in Direct Object position)__
 
-- Recreate the scatterplot below, using the built-in `cars` dataset.
+Learnin' from each other's knowin'
 
-```{r echo = FALSE}
-with(cars, plot(speed, dist))
-```
+Lookin' to see ^COMP^[how much we've grown] __(in Direct Object position)__
 
-`r hide("I need a hint")`
-`?plot`
+And the only one ^REL^[who could ever reach me] was the son of a preacher man
+
+The only boy ^REL^[who could ever teach me] was the son of a preacher man
+
+Yes he was, he was, oh yes he was
+
+He was the sweet-talkin' son of a preacher man
+
+The only boy ^REL^[who could ever teach me] was the son of a preacher man
+
+The only one ^REL^[who could ever reach me] was the sweet-talkin' son of a preacher man
+
 `r unhide()`
 
-`r hide()`
-```{r eval = FALSE}
-with(cars, plot(speed, dist))
-```
-`r unhide()`
 
-*Don't forget to `unhide()` after the solution!*
+
+##2. Don't you want me, Human League (click [here](https://www.youtube.com/watch?v=uPudE8nDog0) for YouTube video)
+
+_______________________________________________
+
+Listen to the song, and as you listen count the number of dependent clauses. If your answer is correct it will become blue. After you have finished, click 'SHOW ANSWERS' at the bottom, to see the solution.
+
+________________________________________________
+
+
+You were working as a waitress in a cocktail bar when I met you. = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+I picked you out, I shook you up, and turned you around, turned you into someone new. = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+Now five years later on you've got the world at your feet. = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+Success has been so easy for you. = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+But don't forget it's me who put you where you are now, and I can put you back there too. = `r mcq(c("0","1","2", answer = "3", "4", "5"))` _dependent clause(s)_
+
+Don't, don't you want me? = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+You know I can't believe it when I hear that you won't see me. = `r mcq(c("0", "1","2", answer = "3", "4", "5"))` _dependent clause(s)_
+
+Don't, don't you want me? = `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+You know I don't believe you when you say that you don't need me. = `r mcq(c("0", "1","2", answer = "3", "4", "5"))` _dependent clause(s)_
+
+It's much to late to find when you think you've changed your mind. = `r mcq(c("0", "1", answer = "2", "3", "4", "5"))` _dependent clause(s)_
+
+You'd better change it back or we will both be sorry. = `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+_________________________________
+
+CHORUS
+
+Don't you want me, baby? `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+Don't you want me, oh? `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+Don't you want me, baby? `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+Don't you want me, oh? `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+________________________________
+
+I was working as a waitress in a cocktail bar. `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+That much is true .`r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+But even then I knew I'd find a much better place, either with or without you. `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+The five years we have had have been such good times. `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+I still love you. `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+But now I think it's time I live my life on my own. `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+
+I guess it's just what I must do. `r mcq(c("0", "1", answer = "2", "3", "4", "5"))` _dependent clause(s)_
+
+
+Don't, don't you want me? `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+You know I can't believe it when I hear that you won't see me. `r mcq(c("0","1",answer = "2", "3", "4", "5"))` _dependent clause(s)_
+
+
+Don't, don't you want me? `r mcq(c(answer = "0", "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+You know I don't believe you when you say that you don't need me. `r mcq(c("0","1",answer = "2", "3", "4", "5"))` _dependent clause(s)_
+
+It's much too late to find, when you think you've changed your mind, you'd better change it back or we will both be sorry. `r mcq(c("0", answer = "1","2", "3", "4", "5"))` _dependent clause(s)_
+
+___________________________
+
+CHORUS
+
+
+`r hide("SHOW ANSWERS")`
+
+REL = relative clause, ADV = adverbial clause, COMP = complement clause ('complement' = post-verbal argument).
+
+____________________________________
+
+You were working as a waitress in a cocktail bar ^ADV^[when I met you].
+
+I picked you out, I shook you up, and turned you around, turned you into someone new. __(Multiple clauses in a chain, but none of them are subordinate)__
+
+Now five years later on you've got the world at your feet.
+
+Success has been so easy for you.
+
+But don't forget ^COMP^[it's me ^REL^[who put you ^COMP^[where you are now]] and I can put you back there too. __(Relative clause is subject relative (head pronoun 'me' is the subject of the verb 'put'). Final clause, 'and I can...' is a conjoined clause, not subordinate)__
+
+Don't, don't you want me?
+
+You know ^COMP^[I can't believe it ^ADV^[when I hear ^COMP^[that you won't see me]]]. __A very difficult structure. It's not completely certain whether the Adverbial clause modifies 'believe' or 'know'. The structure I have shown assumes that it modifies 'believe'__
+
+Don't, don't you want me?
+
+You know ^COMP^[I don't believe you ^ADV^[when you say ^COMP^[that you don't need me]]].  __A very difficult structure. It's not completely certain whether the Adverbial clause modifies 'believe' or 'know'. The structure I have shown assumes that it modifies 'believe; __
+
+It's much to late to find, ^ADV^[when you think ^COMP^[you've changed your mind]]. __2 conjoined clauses. None embedded__
+
+You'd better change it back or we will both be sorry. __2 conjoined clauses__
+
+_________________________________
+
+CHORUS
+
+Don't you want me, baby?
+
+Don't you want me, oh?
+
+Don't you want me, baby?
+
+Don't you want me, oh?
+
+________________________________
+
+I was working as a waitress in a cocktail bar.
+
+That much is true.
+
+But even then I knew ^COMP^[I'd find a much better place], either with or without you.
+
+The five years ^REL^[we have had] have been such good times.
+
+I still love you.
+
+But now I think ^COMP^[it's time ^COMP^[I live my life on my own]]. __(First complement clause is a complement (Direct Object) of the verb 'think'. The second is a complement of the Noun 'time'. We've used the term 'complement' to describe a post-verbal argument, but in fact, other word classes can take complements too)__
+
+I guess ^COMP^[it's just ^COMP^[what I must do]].
+
+Don't, don't you want me?
+
+You know ^COMP^[I can't believe it ^ADV^[when I hear ^COMP^[that you won't see me]]]. __(Again, there is ambiguity in the above example regarding what adverbial clause modifies. I'm assuming it modifies the verb 'believe')__
+
+Don't, don't you want me?
+
+You know ^COMP^[I don't believe you] ^ADV^[when you say ^COMP^[that you don't need me]]. __(Again, there is ambiguity regarding what the adverbial clause modifies. I'm assuming it modifies the verb 'believe')__
+
+It's much too late to find, ^ADV^[when you think you've changed your mind], you'd better change it back or we will both be sorry. __Final two clauses are conjoined with 'or'__
+
+___________________________
+
+CHORUS
+
+
+__There's lots of use of sentence-initial 'you know' and 'I guess'. It's actually not certain whether these verbs take clausal complements, e.g. 'you know where I hid the chocolate', or whether they are just prefabricated chunks with a specific discourse function, e.g. 'You know... I really don't like this bar. Let's go somewhere quieter'. In this second sentence 'you know' is just a means of changing topic / introducing an opinion. I've assumed that 'you know' and 'I guess' in the song take genuine clausal complements. I wouldn't think too hard about the meaning of these lyrics. Some of the lines don't make a lot of sense, and result from the process of trying to match the lyrics to the melody.__
+`r unhide()`
